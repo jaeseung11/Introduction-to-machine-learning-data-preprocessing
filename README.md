@@ -20,9 +20,14 @@
 
 ### 7. 헷갈리는거 axis = 0 , 1
 
-concat에서 axis = 0 
-           axis = 1
+concat에서 axis = 0 수직으로 결합 가로(행)을 위아래로 합치는거 열의 수가 같아야 한다. 
+           axis = 1 수평으로 결합 세로(열)을 옆으로 합치는거 행의 수가 같아야 한다. 
 
-drop axis = 0
-     axis = 1
+drop axis = 0  행
+     axis = 1  열
+     
+isnull()  axis = 0  열
+          axis = 1  행
+     
+
      
